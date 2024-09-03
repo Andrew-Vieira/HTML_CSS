@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: maroon;
+    background-color: darkgoldenrod;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+}

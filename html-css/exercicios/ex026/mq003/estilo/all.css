@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body{
+html,
+body {
 
     background-color: rgb(41, 41, 238);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,9 +16,27 @@ html, body{
     width: 100vw;
 }
 
-body{
+body {
 
- 
+
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media screen and (orientation: portrait){
+
+    body {
+
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: center bottom;
+    }
+}
+
+@media screen and (orientation: landscape) {
+
+    body {
+
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+    }
 }

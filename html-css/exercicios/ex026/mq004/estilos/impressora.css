@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+img#tel{
+    display: none;
+    
+}
+
+img#tablet{
+    display: none;
+}
+
+img#pc{
+    display: none;
+}
+
+img#tv{
+    display: none;
+}
+
+img#print{
+    display: block;
+}
+
+img {
+    margin: auto;
+}
